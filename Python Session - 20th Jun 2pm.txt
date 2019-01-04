@@ -1,0 +1,76 @@
+Doubts:
+----------------------
+-List to string 
+-print in same line without space
+
+-Slicer 
+-Trim
+	
+Question B83: WAP to input a name and print the name in the following pattern
+		
+		R						RAJAT
+		RA						RAJA
+		RAJ						RAJ
+		RAJA						RA
+		RAJAT					R		
+
+
+-File Handling : to read data from file and write to file 
+There are following inbuilt methods:
+	
+	open(path,mode of file)
+		mode of file:
+			r -read
+			w -write
+			a - append
+			w+ -read and write
+			a+ - read and append
+					
+
+	read()		: read all contents fron file 
+	readline()	: read line by line 
+	readlines()	: read all lines and convert to list
+	write()		: write string to file
+	close()		: save and close the file
+	
+
+
+Functions : is set of command/instruction/code which are reusable
+------------------
+->support to modular approach , large code can be written in small set 
+->easy to manage manage the source code 
+
+
+There are following types of functions:
+i. SDF : system defined function(is also knwon as inbuilt functions)
+ii. UDF 
+	There are following types of functions:
+		a. no argument no return
+		b. no argument with return
+		c. argument with no return
+		d. argument with return 
+		
+
+		syntax:
+		def funname():
+			..
+			..
+
+
+########
+Q. wap to get count of particular (is) word from file
+Q. wap to convert string to proper case 
+		this is java
+		=This Is Java
+Q. wap to get count of space in file 
+Q. wap to convert digit to word
+	123 = one hundered twenty three
+Q. wap to read the file and write odd line number in one file and all even line numebr in 2nd file
+########
+
+
+
+	
+
+
+

@@ -1,0 +1,67 @@
+Day-1
+=============
+-How to setup Django Environment?
+-Create project
+-Create application 
+-Edit Project - urls.py file 
+-Add new urls.py in application 
+	->add custom/url of view action 
+-Add view.py : add function/acction 
+-Add application in settings.py
+-Run application 
+-Add templates 
+		in application:
+			templetals
+				appllicationanme
+					index.html
+					home.html
+
+
+-Forms in template 
+-Add action,event 
+-Read data on button click on save to file 
+
+
+Day-2
+=====================
+-CSS : cascading style sheet  / to beautify the web pages 
+ 	There are following types of css:
+		i. inline
+		ii. infile/internal
+		iii. external / outfile 
+				bootstap 
+
+
+		Add external css 
+		
+		
+
+	
+		
+-JavaScript   : is client side scripting langauge 
+		: is plateform and browser independent 
+		: we can use js for validation and client side action 
+		
+		
+-Form Validation:
+		 
+-Menu / router 
+
+
+Next:
+	-model
+	-database connection
+	
+Next:
+	-Django Admin 
+	-State Management
+	-Email Notification 
+
+Next: 
+	-Project 
+			
+
+
+
+
+

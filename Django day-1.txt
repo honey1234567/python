@@ -1,0 +1,65 @@
+DJango Environment
+===========================
+Python 2.7+
+VSCode : any editor/ide 
+
+
+pip install dJango 
+
+
+Create Project
+=====================
+python path/django-admin.py startproject proname
+cd proname 
+
+
+Default structuer or python django project:
+	projectname(mysite)
+
+		mysite
+			-__init__.py
+			-wsgi.py
+			-settings.py
+			-urls.py
+		manage.py 
+
+
+
+
+create application/app:
+
+	python path/django-admin.py startapp appname
+	
+
+run project:
+	pyton manage.py runserver
+		
+
+
+Edit urls.py file and route to applications
+=================================
+	mysite
+		urls.py		1.
+		settings.py		: add appl name 
+
+	blog 
+		urls.py 	2
+		views.py	3	
+
+		
+	
+Add html tempalate:
+	blog: app
+		templates:
+			blog:
+				index.html
+				home.htl 	
+
+	
+
+
+		
+
+
+
+

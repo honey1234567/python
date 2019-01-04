@@ -1,0 +1,174 @@
+-Python Application
+-Python Environment
+-First Program
+-Data Type & variables
+-Input and Output 
+-Operator
+-Condition
+-Loop
+-List and operations
+
+-Python Applications
+============================
+->Data Science
+->Machine Learning
+->AI
+->Automation 
+
+
+->Web Development : DJango
+
+->Automation Testing
+
+->Security
+->Ethical Hacking
+
+
+-Python Environment
+===========================
+->Python Interpreter (python is programing/scripting language and itself interpreter)
+->Python Version:
+	2.7***,...3.4***,..,3.6***,3.7
+->Coding Editor:
+	->Python Shell/Command line 
+		>>>
+	->IDLE/GUI
+		.py
+	->Editor : IDE (integrated development environment)
+		-pycharm
+		-vscode
+		-sublime
+		-annoconda
+		-atom
+		etc.
+
+
+-Data Type & variables
+========================
+*python does allocate memory and data type automatically
+a =1 # int
+a =1.1 # float
+a ='1.1' # str
+a ="1.1" # str
+a = True # bool
+
+a = [111,2,2,'ffff'] # list 		/ mutable / changable 
+	a[1] =11
+
+a = (111,2,2,'ffff') # tuple   / read only
+	a[1] =22 # is not allowed
+
+a = {'a':'alpha','b':'beta'}  # dict   ,   key:value 
+
+a = {'item1','item2','item1'} # set   : contains unique value, 2nd item1 will be removed 
+	{item1,item2}
+
+
+
+-Input and Output 
+==================
+-2.7
+	input()		# read number value 
+		1	#no error
+		abcd	# error	
+		'abcd'	# no error	
+	raw_input()	# read string vaoue 
+
+
+	print 'msg'		#correct
+	print 'msg',var2,var3	#correct
+	print ('msg',var2,var3)	#correct
+
+-3.0 or above
+	input()	# default data type is string
+	print 'msg'	#error 
+	print ('msg')	#correct
+	print ('msg',var2,var3)	#correct
+
+
+
+-Operator
+===================
+Arithmetic:
+	+
+	-
+	*		: 2*3 =6
+	**		: 2**3 =8
+	/		: 85/10 = 8.5		
+	//		:85// = 8
+	%		:85%10 = 5
+
+Conditinal:
+	>
+	>=
+	<
+	<=
+	==
+	!=
+	in
+	not in 
+Assignment operator:
+	=
+
+Logical:
+	and	
+	or 
+Note : Python is indentation based programing language
+	
+-Condition
+=========================
+**python doesn't support switch case
+-if condition 
+
+if condition:
+	..
+	..
+	..
+
+
+-if else 
+if condition:
+	..
+	..
+else:
+	...
+
+
+-if elif elif else  / ladder if else 
+
+if condition:
+	..
+elif condition:
+	..
+elif condition:
+	..
+else:
+	....
+
+
+
+-nested if else 
+if condition:
+	if conditon:
+		..
+	else:
+		..
+else:
+	....
+
+-Loop : is iterator or repeation of statement /code/ instructions 
+===================
+Example:
+	1 2 3  ..100
+Fundamental of loop:
+	init  / start      :  1			100
+	limit/condition: 100			1
+	increment/decrment: +1		-1
+
+There are following types of loop:
+i. while
+ii. for 
+
+
+
+

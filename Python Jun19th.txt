@@ -1,0 +1,116 @@
+Python Path
+--------------------------
+C:\Python27
+C:\Python27\Scripts
+C:\Python27\Lib
+-------------------------------------------
+->Loop
+->String Handling
+->List
+->File Handling
+
+ ->Loop: is iterator or repeation of statment/command/instructions
+======================
+Example:
+	1 2 3 .. 100
+
+Fundamental of Loop:
+	-init /start		:	 1
+	-condition	/limit		: 	100
+	-increment/decrement/steps	:	+1
+
+
+There are following types of loop:
+i. while 
+	i =1	# init 
+	while i<=100: # condition
+		...
+		...
+		i =i+1  # increment
+
+ii. for 
+	for i in range(1,101): # from 1 to <101 , default incrementer is 1
+		.....
+
+
+
+->String Handling
+======================
+upper()	# convert lower to upper case
+lower()	# convert upper to lower case
+len()	# return lenght of chars including space
+list()	#  convert string to list 
+	"nitin"  = ['n','i','t','i','n']
+
+split()	# break string to list based on given seperator 
+	# "nitin sinha"   
+	# ["nitin",'"sinha"]
+
+slicer:  [] 
+replace() # find and replace old by new value
+
+trim() # remove leading/extra space 
+
+etc.
+	
+
+->List : is collection of data or values
+=========================
+-> multiple values can be stored on single/one variable
+a   = []
+
+a = [11,2,2,32,34,3,4,4] # one Dimenssion
+
+aa = [ [1,2] , [3,4] , [5,6] ] # two d :   3 rows and 2 cols 
+
+
+Input/Output:
+	-> Shell / Console
+	->File Hanlding
+	->Database 
+->File Handling
+==============================
+Process:
+	-> Read
+	-> Write
+
+Methods:
+	open('path','mode of file')
+			path: physical location
+			mode of file: 
+				r	: read
+				w	: write
+				a	: append
+				w+	: read and write
+				a+	: read append 
+
+	read()		# read all contents from file
+	readline()		# read line by line (1st line)
+	readlines()	# read all lines and convert to list 
+	write(str)		# write to file
+	close()		# save and close the file 
+===========================Through net==========================================	
+Python tips - How to easily convert a list to a string for display
+There are a few useful tips to convert a Python list (or any other iterable such as a tuple) to a string for display.
+First, if it is a list of strings, you may simply use join this way:
+>>> mylist = ['spam', 'ham', 'eggs']
+>>> print ', '.join(mylist)
+spam, ham, eggs
+Using the same method, you might also do this:
+>>> print '\n'.join(mylist)
+spam
+ham
+eggs
+
+
+
+
+
+
+
+
+
+
+
+
+

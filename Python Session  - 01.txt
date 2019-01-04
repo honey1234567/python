@@ -1,0 +1,168 @@
+
+Today's Topics
+============
+-Overview of Python 
+-Python Application
+-Python Environment
+-First Program in Python
+-Data Type
+-Input/Output
+-Operator
+-Condition 
+-Loop 
+
+-Overview of Python 
+======================
+-> python is programing/scripting language which is plateform independent(suppor to all operating systems)
+-> Python is open sources ( free for use)
+-> Python is interpreter based language(code will be executed line by line)
+-> Python is easy to learn and use, it's light weight plateform 
+-> Python is indentation/allignment based programing language
+
+
+-Python Applications
+=============================
+->Data Science		**
+-> Machine Learning	**	
+-> AI
+-> Automationg
+-> Web Development (DJango)	**
+-> Security
+-> Ethical Hacking 
+
+-Python Environment 
+========================
+-> Python is language and itself interpreter 
+-> Python Version:
+		3.7 , 3.6** ,. 3.5, 3.4** 3.0 || ......, 2.7**
+->Coding/Command Enviroment:
+	-Console/Command Line /Python Shell
+		>>>
+
+	-IDLE/GUI
+		-python code can be saved with .py extension 
+		-F5 to execute the code 
+
+	-Editor (IDE-integrated development environment)
+		->Spyder
+		->Annoconda
+		->Subline
+		->Pycharm
+		etc.
+-First Program in Python
+=======================
+->Python is interpreter based programing language
+->Python is case sensetive
+->Python doesn allocate memory automatically 
+	a =1 #int
+	a=11.2 #float
+	a='abc' # str
+	a ="sjhsh" # str
+
+-> # : single line comment
+->  multiple line comment
+'''
+...
+..
+'''
+
+or
+"""
+....
+
+""
+-Data Type/class type
+=============================
+int 		: a =11
+float		: a = 333.2
+str		: a ='sjshsjfs2122'  or a ="sklhsjhgs3222"
+bool		: a = True
+list		: a =[111,2,2,2,12,'ddd'4] # list is mutable/ changable
+tupe		: a = (111,2,2,3,34,3,3)  # tuple is read only
+dict		: a ={'a':'alpha','t':'tata','b':'beta'}
+set		: a ={'item1','item2','item3','item1'} # contains unique value 						#2nd item1 will be removed 	
+		
+
+
+#function to print output/message
+print 'msg'
+print ('msg')
+print ("msg")
+print varname 
+
+## get / print data type
+a =1
+print(type(a))
+
+
+-Input/Output
+===================
+input('enter data ')  # read int/numeric data
+raw_input('enter data ')  # read string 
+
+print  'msg'		# print and change line 
+print 'msg',		# print and don't change line 
+
+-Operator
+=================================
+Arithmetic:
+	+		
+	-
+	*		: 2*3 = 6
+	**		: 2**3 = 8
+	/		: 85/10	= 8.5
+	//		: 85//10 = 8
+	%		: 85%10	= 5
+
+Conditional:
+	>
+	>=
+	<
+	<=
+	==
+	!=
+	in
+	not in 
+Logical :
+	and
+	or 
+
+
+
+	
+-Condition  : is decision making statement 
+==================
+-> if condition 
+-> python doesn't support switch case 
+
+syntax:
+if condition:
+	...
+	...
+-----------
+if condition:
+	...
+	...
+else:
+	...
+	...
+
+---------------
+if condition:
+	....
+elif condition:
+	..
+else:
+	...
+	
+
+
+
+
+
+
+
+
+
+
+

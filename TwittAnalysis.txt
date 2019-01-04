@@ -1,0 +1,111 @@
+Sentiment Analysis
+=======================
+
+polarity : rating for every statement /words
+
+positive		: 40
+negative		: 30 
+neutral 		: 30 
+
+
+1.create twitt app :
+
+https://apps.twitter.com
+
+app name: my_python_learning
+
+3. get access token
+
+
+Consumer Key (API Key):
+		Jm6WDXZuiwlwUnT9mFbPdSpcg
+Consumer Secret (API Secret):	
+Getting started with mini projects in Python: Tweet Bot
+Cyber Labs ‘Session 1: Head-start Into Programming’ summary
+
+So everyone around has been telling you that Computer Programming is super awesome. Once you learn it, you can code your own websites, Android apps, games and what not. So one day you get fed up with all the talks and decide to give this challenge a shot. Now as far my experience goes you are going to end up in one of these situations:
+
+You end up becoming the next Mark Zuckerberg. (Extremely unlikely)
+You create a grotesque website or a simple addition/subtraction command line tool. (Somewhat likely)
+You download a new TV Series and start watching it. (Most likely)
+
+The learning curve of programming is rather steep and many people lose motivation in between.
+
+This post isn’t written to teach you how to code the next Google Search Engine, Facebook or Windows OS, rather it is meant for people who have just started to program (preferably Python) and how they can make something substantial using that knowledge.
+
+In this article, we are going to cover the following things:
+
+Creating a “Dumb Twitter Bot” .
+Using tweepy to communicate with the Twitter API.
+The prerequisites for creating a Tweetbot are:.
+
+Importing Libraries in Python.
+Declaring String in Python.
+Passing parameters to functions.
+For those who do not well versed with the above concepts can follow tutorials from LearnPython. They can also take Python courses of reputed Universities from Edx.org or Coursera.org.
+
+
+Now let’s code our very first Twitter Bot.
+
+First of all you are going to need a twitter account. If you don’t have one, go to this link : Twitter Sign Up.
+Then go to apps.twitter.com and click on “Create New App”.
+Now fill the application details in the next page.
+In the Application Management Page go to “Keys and Access Tokens” tab and copy the following fields: Consumer (API) Key, Consumer (API) Secret, Access Token and Access Token Secret.
+Now comes the programming part. This is the full code using which you can tweet via command line or terminal.
+
+import tweepy
+CONSUMER_KEY        = "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+CONSUMER_SECRET     = "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+ACCESS_TOKEN        = "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+ACCESS_TOKEN_SECRET = "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
+api = tweepy.API(auth)
+message = "Hi @humble_fool, this tweet is sent using python"
+status = api.update_status(message)
+Time for the code-dissection!
+
+The first line of the program is used to import a library called tweepy. Tweepy is an open-sourced library hosted on GitHub and enables Python to communicate with Twitter platform and use its API.
+
+import tweepy
+The next 2 lines of the program contains information regarding Consumer (API) Key and Consumer (API) Key Secret. Think of it as a Username and Password combo. Since you are a Twitter App Developer you get a unique Consumer Key and Consumer Key Secret.
+
+CONSUMER_KEY        = "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+CONSUMER_SECRET     = "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+The next lines contain information of Access Token and Access Token Secret. The Access Token and Access Token Secret is App Specific. Since you are a Twitter App Developer you may have specific Access Tokens for each app you have made (although the Consumer Key is going to be common).
+
+ACCESS_TOKEN        = "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+ACCESS_TOKEN_SECRET = "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+Now comes the validation part. In this section we pass on parameters to the tweepy library functions. Think of this as entering username and password in the text box, then pressing the return key.
+
+auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
+api = tweepy.API(auth)
+Finally after successfully authenticating our application we can tweet our first status. We write our tweet as a String and pass it to another tweepy library function.
+
+message = "Hi @humble_fool, this tweet is sent using python"
+status = api.update_status(message)
+That’s it folks. Congratulations! You have posted your first tweet using Python. You can come up with interesting changes to the original code to make it do several other things like tweeting to 100 people at once, designing a Football Score Alert or an Auto Reply Bot		
+
+
+Access Token	:
+919434545924935681-wFjVVTbs0pmyB2VwSoj4VwGb7tBYCyr
+
+Access Token Secret :
+	RaPfxU0rSMjkS3MSI9N0ztXu4I2iLMecXg79OerNHw4Ly
+
+
+
+3. intall tweetpy
+	  tweepy    **
+	  textblob   ** : dictionary 
+
+	  matplotlib
+
+
+
+
+
+
+
+
